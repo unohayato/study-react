@@ -7,10 +7,11 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export function Headline() {
+export function Headline(props) {
   return (
     <div>
       <h3>Head Line</h3>
+      <p>{ props.title }</p>
     </div>
   );
 }
