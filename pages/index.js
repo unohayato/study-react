@@ -1,8 +1,7 @@
-import Head from 'next/head'
-import { Footer } from '../components/Footer'
-import { Main } from '../components/Main'
+import Head from 'next/head';
+import { Footer } from '../components/Footer';
+import { Main } from '../components/Main';
 import { Headline } from '../components/HeadLine';
-
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
